@@ -2,6 +2,10 @@
 
 可复用的本地网页工作台：将 MusicXML/MXL 乐谱与 MIDI 音轨高精度映射到真实谱面符头，生成极富表现力的双声部 3D 跳动音符动画。支持多种粒子光效系统、运镜缓动算法、行进折返排版与音视频实时同步录制。
 
+<p align="center">
+  <img src="docs/images/motion-demo.gif" alt="音符三维跳动与粒子流光动效演示" width="900" style="border-radius: 8px; box-shadow: 0 8px 24px rgba(0,0,0,0.35);" />
+</p>
+
 ---
 
 ## ✨ 核心特性
@@ -33,6 +37,10 @@
 - **预设系统与丰富主题**：
   - 一键载入 `电影级`、`演奏会`、`教学纯净`、`梦幻童话`、`赛博朋克`、`水墨古韵`、`夏夜萤火`、`烟花盛典` 预设。
   - 谱面风格提供 `象牙白谱`、`极夜反色`、`乌木暗雕`、`原版暖墨`。
+
+<p align="center">
+  <img src="docs/images/workbench-preview.png" alt="谱面工坊全景工作台界面" width="900" style="border-radius: 8px; box-shadow: 0 8px 24px rgba(0,0,0,0.35);" />
+</p>
 
 ---
 
@@ -66,6 +74,10 @@ npm test -- --run    # 执行单元测试套件
    - 点击播放栏右侧放大图标进入全屏模式，使用 **空格键** 随时控制播放与暂停。
    - 点击「录制整首」以 30 fps 实时渲染采集画布与音轨，自动导出 MP4 / WebM 高清视频。
 6. **保存与复用**：支持导出项目 JSON，随时恢复工程排版与视效配置。
+
+<p align="center">
+  <img src="docs/images/fullscreen-preview.png" alt="全屏纯净模式下的高空跳跃与流光彩带" width="900" style="border-radius: 8px; box-shadow: 0 8px 24px rgba(0,0,0,0.35);" />
+</p>
 
 ---
 
